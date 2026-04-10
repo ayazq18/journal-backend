@@ -14,7 +14,7 @@ spring:
   application:
     name: journal
   datasource:
-    url: jdbc:mysql://localhost:3306/journal?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/journal?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
     username: root
     password: Admin123#
     driver-class-name: com.mysql.cj.jdbc.Driver
